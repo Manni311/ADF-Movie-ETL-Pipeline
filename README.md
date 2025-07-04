@@ -1,26 +1,22 @@
-# ADF-Movie-ETL-Pipeline
+# 🎬 Azure Data Factory – Movie ETL Pipeline (Simulated)
 
-This is a **simulated Azure Data Factory project** for extracting and loading movie data using JSON templates.
+[![Azure Data Factory](https://img.shields.io/badge/Azure-ADF-blue)](https://azure.microsoft.com/en-in/services/data-factory/)
+[![Status](https://img.shields.io/badge/Project-Simulated-green)]()
+
+This is a **cost-free simulated Azure Data Factory (ADF) project** created for showcasing ETL skills in a freelancing/data engineering portfolio.
+
+---
 
 ## 🚀 Project Overview
 
-This project showcases how to design an ETL pipeline in Azure Data Factory using:
-- A CSV file in Blob Storage (simulated)
-- A transformation activity (not included to avoid cost)
-- Loading into Azure SQL DB (simulated)
+This project simulates a pipeline that:
+- Ingests a movie CSV file from blob storage
+- Transforms the data (conceptually)
+- Loads into an Azure SQL database
 
-## 📁 Project Structure
-
-- `pipelines/`: ADF pipeline JSON
-- `datasets/`: Input and output dataset templates
-- `linkedServices/`: Dummy linked service definitions
-- `data/`: Sample movie CSV
-- `README.md`: This file
-
-## 📌 Notes
-
-- This is a **cost-free simulated portfolio project** – no ADF runs required.
-- Ideal for showcasing your understanding of Azure Data Factory for freelancing or job interviews.
+Although this project doesn't run in Azure (to avoid charges), it demonstrates your understanding of ADF concepts and structure.
 
 ---
-Created as part of **Project Earning – Freelance Launch Plan**.
+
+## 📁 Folder Structure
+
